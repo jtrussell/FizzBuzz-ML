@@ -3,18 +3,20 @@ Get our raw data into a format suitable for learning.
 
 Each row will have 33 integer columns.
 
-The first should be in the range 0-3 and indicates the how fizzy and buzzy that
+The first should be in the range 0-3 and indicates how fizzy and buzzy that
 number is:
     0 - No fizz, no buzz :(
     1 - Fizz!
     2 - Buzz!
     3 - FizzBuzz!
 
-(An alternative implemenation could use two columns one for on/off of Fizz, the
-other for on/off of Buzz. That's left as an exercise for the reader :wink:).
+(An alternative implemenation could use two columns, one for on/off of Fizziness,
+the other for on/off of Buzziness. That's left as an exercise for the reader
+:wink:).
 
 The remaining 32 columns make up a (right aligned) 32-bit representation of the
-number being fizzbuzzed.
+number being fizzbuzzed. E.g. the number 5 in binary (101) would be represented
+by twenty-nine 0s folowed by 101.
 
 We'll output two files (identically formatted), one for training, the other for
 testing.
