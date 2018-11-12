@@ -1,0 +1,14 @@
+name: fizzbuzz
+channels:
+  - https://conda.anaconda.org/menpo
+  - conda-forge
+dependencies:
+  - python==3.6.1
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - h5py
+  - pip:
+    - tensorflow==1.12.0
+    - keras==2.2.4
